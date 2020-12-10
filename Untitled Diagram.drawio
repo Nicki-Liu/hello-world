@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-10T09:02:39.786Z" agent="5.0 (Windows)" etag="wkDfLeTqZ8oEIQ4w8fiM" version="13.11.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-10T15:41:00.983Z" agent="5.0 (Windows)" etag="wMXh6llOrJg_wX8665bY" version="13.11.0" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="782" dy="404" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1632" dy="404" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -58,41 +58,14 @@
         <mxCell id="DEyL_VFvNH3OQuk7k3UQ-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="DEyL_VFvNH3OQuk7k3UQ-72" source="DEyL_VFvNH3OQuk7k3UQ-74" target="DEyL_VFvNH3OQuk7k3UQ-75">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DEyL_VFvNH3OQuk7k3UQ-81" value="" style="group;" vertex="1" connectable="0" parent="1">
-          <mxGeometry y="440" width="830" height="170" as="geometry" />
-        </mxCell>
-        <mxCell id="DEyL_VFvNH3OQuk7k3UQ-82" value="&lt;div&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;b&gt;DECODE&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;将rs1中的数、IMM作为ALU的输入&lt;br&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="DEyL_VFvNH3OQuk7k3UQ-81">
-          <mxGeometry x="150" y="70" width="250" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="DEyL_VFvNH3OQuk7k3UQ-83" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;EXE&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;将ALU结果写到&lt;b&gt;地址&lt;/b&gt;总线，&lt;/div&gt;&lt;div&gt;拉低&lt;b&gt;读&lt;/b&gt;信号&lt;br&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="DEyL_VFvNH3OQuk7k3UQ-81">
-          <mxGeometry x="420" y="70" width="200" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="DEyL_VFvNH3OQuk7k3UQ-85" value="&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;b&gt;LW、LB&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="DEyL_VFvNH3OQuk7k3UQ-81">
-          <mxGeometry width="140" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="DEyL_VFvNH3OQuk7k3UQ-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="DEyL_VFvNH3OQuk7k3UQ-81" source="DEyL_VFvNH3OQuk7k3UQ-87" target="DEyL_VFvNH3OQuk7k3UQ-82">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="DEyL_VFvNH3OQuk7k3UQ-87" value="&lt;div&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;b&gt;FETCH&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;访存，获得inst" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="DEyL_VFvNH3OQuk7k3UQ-81">
-          <mxGeometry y="70" width="140" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="DEyL_VFvNH3OQuk7k3UQ-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="DEyL_VFvNH3OQuk7k3UQ-81" source="DEyL_VFvNH3OQuk7k3UQ-82" target="DEyL_VFvNH3OQuk7k3UQ-83">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="DEyL_VFvNH3OQuk7k3UQ-144" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;MEM&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;拉高读信号；将内存读出的&lt;/div&gt;&lt;div&gt;数据作为寄存器的输入&lt;/div&gt;&lt;div&gt;【LB还需要解析inst指令判断&lt;/div&gt;&lt;div&gt;字节使能】；&lt;/div&gt;&lt;div&gt;打开寄存器写使能。&lt;br&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="DEyL_VFvNH3OQuk7k3UQ-81">
-          <mxGeometry x="630" y="70" width="200" height="100" as="geometry" />
-        </mxCell>
         <mxCell id="DEyL_VFvNH3OQuk7k3UQ-90" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry y="630" width="830" height="170" as="geometry" />
+          <mxGeometry x="-1" y="639" width="930" height="170" as="geometry" />
         </mxCell>
         <mxCell id="DEyL_VFvNH3OQuk7k3UQ-91" value="&lt;div&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;b&gt;DECODE&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;将当前pc值、IMM作为ALU的输入&lt;br&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="DEyL_VFvNH3OQuk7k3UQ-90">
           <mxGeometry x="150" y="70" width="250" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="DEyL_VFvNH3OQuk7k3UQ-92" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;EXE&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;比较rs1,rs2中的值，结合操作码&lt;/div&gt;&lt;div&gt;确定pc值的更新方式：当前pc^&lt;/div&gt;&lt;div&gt;ALU运算结果&lt;br&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="DEyL_VFvNH3OQuk7k3UQ-90">
+        <mxCell id="DEyL_VFvNH3OQuk7k3UQ-92" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;EXE&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;比较rs1,rs2中的值，结合操作码&lt;/div&gt;&lt;div&gt;确定pc值的更新方式：当前pc^&lt;/div&gt;&lt;div&gt;ALU运算结果；准备读入下一条&lt;/div&gt;&lt;div&gt;指令&lt;br&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="DEyL_VFvNH3OQuk7k3UQ-90">
           <mxGeometry x="420" y="70" width="200" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="DEyL_VFvNH3OQuk7k3UQ-93" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;WRITE BACK&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;运算结果写回寄存器堆；更新PC&lt;/font&gt;&lt;b&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="DEyL_VFvNH3OQuk7k3UQ-90">
-          <mxGeometry x="650" y="70" width="210" height="100" as="geometry" />
         </mxCell>
         <mxCell id="DEyL_VFvNH3OQuk7k3UQ-94" value="&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;b&gt;B型指令&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="DEyL_VFvNH3OQuk7k3UQ-90">
           <mxGeometry width="130" height="60" as="geometry" />
@@ -106,8 +79,8 @@
         <mxCell id="DEyL_VFvNH3OQuk7k3UQ-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="DEyL_VFvNH3OQuk7k3UQ-90" source="DEyL_VFvNH3OQuk7k3UQ-91" target="DEyL_VFvNH3OQuk7k3UQ-92">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DEyL_VFvNH3OQuk7k3UQ-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="DEyL_VFvNH3OQuk7k3UQ-90" source="DEyL_VFvNH3OQuk7k3UQ-92" target="DEyL_VFvNH3OQuk7k3UQ-93">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="DEyL_VFvNH3OQuk7k3UQ-188" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;WRITE BACK&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;恢复寄存器写信号；更新PC&lt;/font&gt;&lt;b&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="DEyL_VFvNH3OQuk7k3UQ-90">
+          <mxGeometry x="670" y="70" width="210" height="100" as="geometry" />
         </mxCell>
         <mxCell id="DEyL_VFvNH3OQuk7k3UQ-99" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry y="840" width="830" height="170" as="geometry" />
@@ -115,10 +88,10 @@
         <mxCell id="DEyL_VFvNH3OQuk7k3UQ-100" value="&lt;div&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;b&gt;DECODE&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;将当前pc值、IMM作为ALU的输入&lt;br&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="DEyL_VFvNH3OQuk7k3UQ-99">
           <mxGeometry x="150" y="70" width="250" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="DEyL_VFvNH3OQuk7k3UQ-101" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;EXE&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;将ALU结果写到数据总线，&lt;/div&gt;&lt;div&gt;打开寄存器写开关&lt;br&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="DEyL_VFvNH3OQuk7k3UQ-99">
+        <mxCell id="DEyL_VFvNH3OQuk7k3UQ-101" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;EXE&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;将ALU结果(AUIPC)或imm&lt;/div&gt;&lt;div&gt;（LUI）写到数据总线，&lt;/div&gt;&lt;div&gt;打开寄存器写使能&lt;br&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="DEyL_VFvNH3OQuk7k3UQ-99">
           <mxGeometry x="420" y="70" width="200" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="DEyL_VFvNH3OQuk7k3UQ-102" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;WRITE BACK&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;运算结果写回寄存器堆；更新PC&lt;/font&gt;&lt;b&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="DEyL_VFvNH3OQuk7k3UQ-99">
+        <mxCell id="DEyL_VFvNH3OQuk7k3UQ-102" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;WRITE BACK&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;数据写入寄存器堆；更新PC&lt;/font&gt;&lt;b&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="DEyL_VFvNH3OQuk7k3UQ-99">
           <mxGeometry x="620" y="70" width="210" height="100" as="geometry" />
         </mxCell>
         <mxCell id="DEyL_VFvNH3OQuk7k3UQ-103" value="&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;b&gt;U型指令&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="DEyL_VFvNH3OQuk7k3UQ-99">
@@ -142,10 +115,10 @@
         <mxCell id="DEyL_VFvNH3OQuk7k3UQ-118" value="&lt;div&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;b&gt;DECODE&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;将当前pc值、IMM作为ALU的输入&lt;br&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="DEyL_VFvNH3OQuk7k3UQ-117">
           <mxGeometry x="150" y="70" width="250" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="DEyL_VFvNH3OQuk7k3UQ-119" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;EXE&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;将ALU结果写到数据总线，&lt;/div&gt;&lt;div&gt;打开寄存器写开关&lt;br&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="DEyL_VFvNH3OQuk7k3UQ-117">
+        <mxCell id="DEyL_VFvNH3OQuk7k3UQ-119" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;EXE&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;将pc+4的值写到数据总线，&lt;/div&gt;&lt;div&gt;打开寄存器写开关&lt;br&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="DEyL_VFvNH3OQuk7k3UQ-117">
           <mxGeometry x="420" y="70" width="200" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="DEyL_VFvNH3OQuk7k3UQ-120" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;WRITE BACK&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;运算结果写回寄存器堆；更新PC&lt;/font&gt;&lt;b&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="DEyL_VFvNH3OQuk7k3UQ-117">
+        <mxCell id="DEyL_VFvNH3OQuk7k3UQ-120" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;WRITE BACK&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;将ALU运算结果赋值给PC&lt;/font&gt;&lt;b&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="DEyL_VFvNH3OQuk7k3UQ-117">
           <mxGeometry x="620" y="70" width="210" height="100" as="geometry" />
         </mxCell>
         <mxCell id="DEyL_VFvNH3OQuk7k3UQ-121" value="&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;b&gt;J型指令&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="DEyL_VFvNH3OQuk7k3UQ-117">
@@ -163,46 +136,19 @@
         <mxCell id="DEyL_VFvNH3OQuk7k3UQ-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="DEyL_VFvNH3OQuk7k3UQ-117" source="DEyL_VFvNH3OQuk7k3UQ-119" target="DEyL_VFvNH3OQuk7k3UQ-120">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DEyL_VFvNH3OQuk7k3UQ-126" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry y="1240" width="830" height="170" as="geometry" />
-        </mxCell>
-        <mxCell id="DEyL_VFvNH3OQuk7k3UQ-127" value="&lt;div&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;b&gt;DECODE&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;将rs1中的数、IMM作为ALU的输入&lt;br&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="DEyL_VFvNH3OQuk7k3UQ-126">
-          <mxGeometry x="150" y="70" width="250" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="DEyL_VFvNH3OQuk7k3UQ-128" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;EXE&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;将ALU结果写到数据总线，&lt;/div&gt;&lt;div&gt;打开寄存器写开关&lt;br&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="DEyL_VFvNH3OQuk7k3UQ-126">
-          <mxGeometry x="420" y="70" width="200" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="DEyL_VFvNH3OQuk7k3UQ-129" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;WRITE BACK&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;运算结果写回寄存器堆；更新PC&lt;/font&gt;&lt;b&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="DEyL_VFvNH3OQuk7k3UQ-126">
-          <mxGeometry x="620" y="70" width="210" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="DEyL_VFvNH3OQuk7k3UQ-130" value="&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;b&gt;S型指令&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="DEyL_VFvNH3OQuk7k3UQ-126">
-          <mxGeometry width="130" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="DEyL_VFvNH3OQuk7k3UQ-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="DEyL_VFvNH3OQuk7k3UQ-126" source="DEyL_VFvNH3OQuk7k3UQ-132" target="DEyL_VFvNH3OQuk7k3UQ-127">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="DEyL_VFvNH3OQuk7k3UQ-132" value="&lt;div&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;b&gt;FETCH&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;访存，获得inst" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="DEyL_VFvNH3OQuk7k3UQ-126">
-          <mxGeometry y="70" width="140" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="DEyL_VFvNH3OQuk7k3UQ-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="DEyL_VFvNH3OQuk7k3UQ-126" source="DEyL_VFvNH3OQuk7k3UQ-127" target="DEyL_VFvNH3OQuk7k3UQ-128">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="DEyL_VFvNH3OQuk7k3UQ-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="DEyL_VFvNH3OQuk7k3UQ-126" source="DEyL_VFvNH3OQuk7k3UQ-128" target="DEyL_VFvNH3OQuk7k3UQ-129">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="DEyL_VFvNH3OQuk7k3UQ-135" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry y="1440" width="830" height="170" as="geometry" />
         </mxCell>
         <mxCell id="DEyL_VFvNH3OQuk7k3UQ-136" value="&lt;div&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;b&gt;DECODE&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;将rs1中的值、csr[IMM]作为ALU的输入&lt;br&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" vertex="1" parent="DEyL_VFvNH3OQuk7k3UQ-135">
           <mxGeometry x="150" y="70" width="250" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="DEyL_VFvNH3OQuk7k3UQ-137" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;EXE&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;将ALU结果写到数据总线，&lt;/div&gt;&lt;div&gt;打开寄存器写开关&lt;br&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" vertex="1" parent="DEyL_VFvNH3OQuk7k3UQ-135">
+        <mxCell id="DEyL_VFvNH3OQuk7k3UQ-137" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;EXE&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;将csr中的值写到数据总线；&lt;/div&gt;&lt;div&gt;将ALU结果（CSRRS CSRRC）或rs1(CSRRW)中的值写到&lt;/div&gt;&lt;div&gt;csr；打开寄存器写开关&lt;br&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" vertex="1" parent="DEyL_VFvNH3OQuk7k3UQ-135">
           <mxGeometry x="420" y="70" width="200" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="DEyL_VFvNH3OQuk7k3UQ-138" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;WRITE BACK&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;运算结果写回寄存器堆；更新PC&lt;/font&gt;&lt;b&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" vertex="1" parent="DEyL_VFvNH3OQuk7k3UQ-135">
+        <mxCell id="DEyL_VFvNH3OQuk7k3UQ-138" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;WRITE BACK&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;数据写入寄存器堆；更新PC&lt;/font&gt;&lt;b&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" vertex="1" parent="DEyL_VFvNH3OQuk7k3UQ-135">
           <mxGeometry x="620" y="70" width="210" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="DEyL_VFvNH3OQuk7k3UQ-139" value="&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;b&gt;E型指令&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="DEyL_VFvNH3OQuk7k3UQ-135">
+        <mxCell id="DEyL_VFvNH3OQuk7k3UQ-139" value="&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;b&gt;CSR指令&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="DEyL_VFvNH3OQuk7k3UQ-135">
           <mxGeometry width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DEyL_VFvNH3OQuk7k3UQ-140" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="DEyL_VFvNH3OQuk7k3UQ-135" source="DEyL_VFvNH3OQuk7k3UQ-141" target="DEyL_VFvNH3OQuk7k3UQ-136">
@@ -217,16 +163,10 @@
         <mxCell id="DEyL_VFvNH3OQuk7k3UQ-143" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="DEyL_VFvNH3OQuk7k3UQ-135" source="DEyL_VFvNH3OQuk7k3UQ-137" target="DEyL_VFvNH3OQuk7k3UQ-138">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DEyL_VFvNH3OQuk7k3UQ-84" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;WRITE BACK&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;恢复寄存器写信号；更新PC&lt;/font&gt;&lt;b&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="860" y="510" width="210" height="100" as="geometry" />
-        </mxCell>
         <mxCell id="DEyL_VFvNH3OQuk7k3UQ-146" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;gradientColor=#97d077;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="DEyL_VFvNH3OQuk7k3UQ-83">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="650" y="560" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="DEyL_VFvNH3OQuk7k3UQ-148" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;gradientColor=#97d077;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="DEyL_VFvNH3OQuk7k3UQ-144" target="DEyL_VFvNH3OQuk7k3UQ-84">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DEyL_VFvNH3OQuk7k3UQ-149" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry y="1640" width="830" height="170" as="geometry" />
@@ -237,7 +177,7 @@
         <mxCell id="DEyL_VFvNH3OQuk7k3UQ-151" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;EXE&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;将PC+4写到数据总线，&lt;/div&gt;&lt;div&gt;打开寄存器写开关&lt;br&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="DEyL_VFvNH3OQuk7k3UQ-149">
           <mxGeometry x="420" y="70" width="200" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="DEyL_VFvNH3OQuk7k3UQ-152" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;WRITE BACK&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;运算结果写回寄存器堆&lt;/font&gt;&lt;b&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="DEyL_VFvNH3OQuk7k3UQ-149">
+        <mxCell id="DEyL_VFvNH3OQuk7k3UQ-152" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;WRITE BACK&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;将ALU运算结果赋给PC&lt;/font&gt;&lt;b&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="DEyL_VFvNH3OQuk7k3UQ-149">
           <mxGeometry x="620" y="70" width="210" height="100" as="geometry" />
         </mxCell>
         <mxCell id="DEyL_VFvNH3OQuk7k3UQ-153" value="&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;b&gt;JALR&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="DEyL_VFvNH3OQuk7k3UQ-149">
@@ -253,6 +193,101 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DEyL_VFvNH3OQuk7k3UQ-157" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="DEyL_VFvNH3OQuk7k3UQ-149" source="DEyL_VFvNH3OQuk7k3UQ-151" target="DEyL_VFvNH3OQuk7k3UQ-152">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DEyL_VFvNH3OQuk7k3UQ-190" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry y="440" width="1070" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="DEyL_VFvNH3OQuk7k3UQ-81" value="" style="group;" vertex="1" connectable="0" parent="DEyL_VFvNH3OQuk7k3UQ-190">
+          <mxGeometry width="830" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="DEyL_VFvNH3OQuk7k3UQ-82" value="&lt;div&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;b&gt;DECODE&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;将rs1中的数、IMM作为ALU的输入&lt;br&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="DEyL_VFvNH3OQuk7k3UQ-81">
+          <mxGeometry x="150" y="70" width="250" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="DEyL_VFvNH3OQuk7k3UQ-83" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;EXE&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;将ALU结果写到&lt;b&gt;地址&lt;/b&gt;总线，&lt;/div&gt;&lt;div&gt;拉低&lt;b&gt;读&lt;/b&gt;信号&lt;br&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="DEyL_VFvNH3OQuk7k3UQ-81">
+          <mxGeometry x="420" y="70" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="DEyL_VFvNH3OQuk7k3UQ-85" value="&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;b&gt;LW、LB&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="DEyL_VFvNH3OQuk7k3UQ-81">
+          <mxGeometry width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DEyL_VFvNH3OQuk7k3UQ-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="DEyL_VFvNH3OQuk7k3UQ-81" source="DEyL_VFvNH3OQuk7k3UQ-87" target="DEyL_VFvNH3OQuk7k3UQ-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DEyL_VFvNH3OQuk7k3UQ-87" value="&lt;div&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;b&gt;FETCH&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;访存，获得inst" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="DEyL_VFvNH3OQuk7k3UQ-81">
+          <mxGeometry y="70" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="DEyL_VFvNH3OQuk7k3UQ-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="DEyL_VFvNH3OQuk7k3UQ-81" source="DEyL_VFvNH3OQuk7k3UQ-82" target="DEyL_VFvNH3OQuk7k3UQ-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DEyL_VFvNH3OQuk7k3UQ-144" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;MEM&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;拉高读信号；将内存读出的&lt;/div&gt;&lt;div&gt;数据作为寄存器的输入&lt;/div&gt;&lt;div&gt;【LB还需要解析inst指令判断&lt;/div&gt;&lt;div&gt;字节使能】；&lt;/div&gt;&lt;div&gt;打开寄存器写使能。&lt;br&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="DEyL_VFvNH3OQuk7k3UQ-81">
+          <mxGeometry x="630" y="70" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="DEyL_VFvNH3OQuk7k3UQ-84" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;WRITE BACK&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;恢复寄存器写信号；更新PC&lt;/font&gt;&lt;b&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="DEyL_VFvNH3OQuk7k3UQ-190">
+          <mxGeometry x="860" y="70" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="DEyL_VFvNH3OQuk7k3UQ-148" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;gradientColor=#97d077;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="DEyL_VFvNH3OQuk7k3UQ-190" source="DEyL_VFvNH3OQuk7k3UQ-144" target="DEyL_VFvNH3OQuk7k3UQ-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DEyL_VFvNH3OQuk7k3UQ-191" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;gradientColor=#97d077;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="DEyL_VFvNH3OQuk7k3UQ-92">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DEyL_VFvNH3OQuk7k3UQ-194" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry y="1240" width="1060" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="DEyL_VFvNH3OQuk7k3UQ-180" value="" style="group;" vertex="1" connectable="0" parent="DEyL_VFvNH3OQuk7k3UQ-194">
+          <mxGeometry width="830" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="DEyL_VFvNH3OQuk7k3UQ-181" value="&lt;div&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;b&gt;DECODE&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;将rs1中的数、IMM作为ALU的输入&lt;br&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="DEyL_VFvNH3OQuk7k3UQ-180">
+          <mxGeometry x="150" y="70" width="250" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="DEyL_VFvNH3OQuk7k3UQ-192" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;gradientColor=#97d077;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="DEyL_VFvNH3OQuk7k3UQ-180" source="DEyL_VFvNH3OQuk7k3UQ-182" target="DEyL_VFvNH3OQuk7k3UQ-187">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DEyL_VFvNH3OQuk7k3UQ-182" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;EXE&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;将ALU结果写到&lt;b&gt;地址&lt;/b&gt;总线，&lt;/div&gt;&lt;div&gt;拉低&lt;b&gt;写&lt;/b&gt;信号&lt;br&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="DEyL_VFvNH3OQuk7k3UQ-180">
+          <mxGeometry x="420" y="70" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="DEyL_VFvNH3OQuk7k3UQ-183" value="&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;b&gt;S型指令&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="DEyL_VFvNH3OQuk7k3UQ-180">
+          <mxGeometry width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DEyL_VFvNH3OQuk7k3UQ-184" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="DEyL_VFvNH3OQuk7k3UQ-180" source="DEyL_VFvNH3OQuk7k3UQ-185" target="DEyL_VFvNH3OQuk7k3UQ-181">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DEyL_VFvNH3OQuk7k3UQ-185" value="&lt;div&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;b&gt;FETCH&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;访存，获得inst" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="DEyL_VFvNH3OQuk7k3UQ-180">
+          <mxGeometry y="70" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="DEyL_VFvNH3OQuk7k3UQ-186" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="DEyL_VFvNH3OQuk7k3UQ-180" source="DEyL_VFvNH3OQuk7k3UQ-181" target="DEyL_VFvNH3OQuk7k3UQ-182">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DEyL_VFvNH3OQuk7k3UQ-187" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;MEM&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;拉高写信号&lt;br&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" vertex="1" parent="DEyL_VFvNH3OQuk7k3UQ-180">
+          <mxGeometry x="630" y="70" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="DEyL_VFvNH3OQuk7k3UQ-193" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;WRITE BACK&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;更新PC&lt;/font&gt;&lt;b&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="DEyL_VFvNH3OQuk7k3UQ-194">
+          <mxGeometry x="850" y="70" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="DEyL_VFvNH3OQuk7k3UQ-195" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;gradientColor=#97d077;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="DEyL_VFvNH3OQuk7k3UQ-194" source="DEyL_VFvNH3OQuk7k3UQ-187" target="DEyL_VFvNH3OQuk7k3UQ-193">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DEyL_VFvNH3OQuk7k3UQ-205" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry y="1840" width="830" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="DEyL_VFvNH3OQuk7k3UQ-206" value="&lt;div&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;b&gt;DECODE&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="DEyL_VFvNH3OQuk7k3UQ-205">
+          <mxGeometry x="150" y="70" width="250" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="DEyL_VFvNH3OQuk7k3UQ-207" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;EXE&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;更新mcause，mepc，mtval，pc" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="DEyL_VFvNH3OQuk7k3UQ-205">
+          <mxGeometry x="420" y="70" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="DEyL_VFvNH3OQuk7k3UQ-209" value="&lt;b&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;特权指令&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="DEyL_VFvNH3OQuk7k3UQ-205">
+          <mxGeometry width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DEyL_VFvNH3OQuk7k3UQ-210" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="DEyL_VFvNH3OQuk7k3UQ-205" source="DEyL_VFvNH3OQuk7k3UQ-211" target="DEyL_VFvNH3OQuk7k3UQ-206">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DEyL_VFvNH3OQuk7k3UQ-211" value="&lt;div&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;b&gt;FETCH&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;访存，获得inst" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="DEyL_VFvNH3OQuk7k3UQ-205">
+          <mxGeometry y="70" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="DEyL_VFvNH3OQuk7k3UQ-212" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="DEyL_VFvNH3OQuk7k3UQ-205" source="DEyL_VFvNH3OQuk7k3UQ-206" target="DEyL_VFvNH3OQuk7k3UQ-207">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
